@@ -1,0 +1,244 @@
+/*===================================================================
+       Extra small devices (portrait phones, less than 576px)
+====================================================================*/
+@media (max-width: 575.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 80px;
+    width: 170px;
+}
+.confirmation li {
+    padding: 10px 37px;
+    font-size: 16px;
+}
+
+ }
+/*===================================================================
+       Small devices (landscape phones, 576px and up)
+====================================================================*/
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 80px;
+    width: 170px;
+}
+
+.confirmation li {
+    padding: 14px 10px;
+    font-size: 16px;
+}
+/*Home page*/
+#popular h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+#popular .title {
+    font-size: 16px;
+    top: 30px;
+}
+.card{
+    width: 165px;
+}
+.slick-next{
+    display: none !important;
+}
+.slick-prev {
+    display: none !important;
+}
+.carousel-indicators{
+    display: none;
+ }
+ .carousel-item img{
+  height: 330px;
+ }
+ .carousel-caption {
+    bottom: 0px;
+}
+.search-form-input .btn {    
+    width: 76px;
+}
+.subscribe{
+    margin-top:20px;
+}
+.subscribe .form-control {
+    width: 70%;
+}
+.both h1 {
+    font-size: 25px;
+}
+.travel {    
+    padding: 69px 40px 10px;
+    margin-top: 20px;
+}
+.why-option h2 {
+    font-size: 20px;
+}
+.why-option p {
+    font-size: 15px;
+}
+}
+.option {
+    padding: 0px 20px;
+}
+.perplanum{
+    text-align: center;
+}
+.social {
+    padding: 20px 0;
+    text-align: center;
+}
+.contact {
+    padding: 0px 0;
+    text-align: center;
+}
+.contact {
+    padding: 0px 0;
+    text-align: center;
+}
+.card-title{
+    font-size: 17px;
+    display: block;
+    text-align: center;
+}
+.card-title span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.card-body {    
+    padding: 12px;
+}
+.review .list-inline-item:not(:last-child){
+    margin-right: 0;
+    text-align: center;
+}
+.review .list-inline-item:nth-child(6n){
+    margin-left: 20px;
+    color:#575757;
+    display: block;
+}
+.review .list-inline-item:nth-child(7n){
+    margin-left: 102px;
+    color:red;
+}
+
+
+ }
+
+
+/*===================================================================
+       Medium devices (tablets, 768px and up)
+====================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 100px;
+    width: 200px;
+}
+.confirmation li {    
+    font-size: 16px;
+    padding:0;
+}
+ .confirmation li .number {    
+    padding: 2px 9px;
+}
+
+/*Home page*/
+#popular h1 {
+    font-size: 91px;
+}
+#popular .title {
+    font-size: 16px;
+}
+.card{
+    width: 225px;
+}
+.slick-next{
+    display: none !important;
+}
+.slick-prev {
+    display: none !important;
+}
+.carousel-indicators{
+    display: none;
+ }
+ .carousel-item img{
+  height: 330px;
+ }
+ .carousel-caption {
+    bottom: 0px;
+}
+.search-form-input .btn {    
+    width: 76px;
+}
+.subscribe .form-control {
+    width: 60%;
+}
+.both h1 {
+    font-size: 25px;
+}
+.travel {    
+    padding: 69px 40px 10px;
+}
+.why-option h2 {
+    font-size: 20px;
+}
+.why-option p {
+    font-size: 15px;
+}
+}
+
+
+/*===================================================================
+       Large devices (desktops, 992px and up)
+====================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.navbar-brand img{
+    height: 100px;
+    width: 200px;
+}
+.nav-item a{
+    font-size: 16px;    
+}
+.phone img{
+    height: 20px;
+}
+.confirmation li {
+    padding: 0 18px;
+}
+
+ }
+
+/*===================================================================
+       Extra large devices (large desktops, 1200px and up)
+====================================================================*/
+@media (min-width: 1200px) { 
+
+
+ }

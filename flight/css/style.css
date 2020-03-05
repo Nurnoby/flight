@@ -1,0 +1,1274 @@
+/*
+           Master Stylesheet
+    ============================
+    Template Name :
+    Author:
+    Author Url:
+    Descriptions:
+    Version:
+    Tag:
+
+*/
+
+/*
+           Table of Content
+        =====================
+ 1. Typrography
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+
+
+
+*/
+
+
+/*=========================
+        Typrography
+===========================*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+
+
+body{
+    font-family: 'Poppins', ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#444444;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    font-family: 'Poppins', ;
+    font-size:  36px;   
+    font-weight: 800;
+    line-height: 40px;
+    color:#565555;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 62px;
+    line-height: 48px;
+    color:#565555;
+}
+
+/*====================================
+       Header Style Start here
+=====================================*/
+header{
+    
+}
+.navbar{
+    padding:0;
+}
+.navbar-brand img{
+    height: 150px;
+    width: 250px;
+}
+.nav-item a{
+    font-size: 22px;
+    font-weight: 600;
+    color:#242424 !important;    
+    padding: 20px 14px !important;
+}
+.nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:2px solid #242424;  
+    padding: 20px 14px 18px !important;  
+    
+}
+.phone:last-child a{
+    padding-right: 0!important;
+}
+.phone:last-child a:hover{
+    color:#242424 !important;
+    border-bottom:none;
+     padding-bottom: 20px !important;   
+}
+.phone img{
+    height: 30px;
+}
+/*============================================
+       footer footer
+==========================================*/
+#booking-footer{
+    background-color: #8dc63f;
+    padding: 20px 0;
+    margin-top:0px;
+}
+.perplanum h4{
+    font-size: 24px;
+    font-weight: 800;
+    color:#ffffff;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.perplanum ul{
+    padding:0;
+    list-style: none;
+}
+.perplanum ul li a{
+    font-size: 16px;
+    color:#ffffff !important;
+    font-weight: 400;
+    text-decoration: none;
+}
+.perplanum p{
+    font-size: 16px;
+    color:#ffffff !important;
+    font-weight: 400;
+   
+}
+
+/*============================================
+       Homepage Style Start
+==========================================*/
+#slider{
+    /*min-height: 400px;*/
+}
+.carousel-caption {    
+    bottom: 75px;
+}
+.search-form{
+    overflow: hidden;
+    text-align: center;
+    margin:0 auto;
+    border:1px solid #8dc63f;
+    background-color: #ffffff;
+}
+.search-form table td{
+    border:none;
+    border-right: 1px solid #535353;
+    padding: 20px 0;
+    border-bottom: 2px solid #303030;
+}
+.search-form table td:hover{    
+    border-bottom: 2px solid #8dc63f;
+    transition: .3s all ease-in-out;    
+}
+.search-form table td:last-child{   
+    border-right: none;
+}
+.search-form table{
+    background-color: #303030;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.search-form table td a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.search-form table td a:hover{
+    color:#8dc63f; 
+    transition: .3s all ease-in-out;   
+}
+.search-type{
+    margin:15px 0;
+}
+.search-type ul{}
+.search-type ul li a{
+    font-size: 18px;
+    color:#575757;
+    font-weight: 600;
+    text-decoration: none;
+}
+.search-type ul li a span i{
+    font-size: 15px;    
+    color: #8dc63f;
+    border:1px solid #575757;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.search-form-input{
+    margin:20px 20px;
+}
+.search-form-input .col{
+    padding:0;
+    padding-right: 10px;
+}
+.search-form-input .col:first-child{    
+    margin-left: 20px;
+}
+.search-form-input .form-control{
+    height: 60px;
+    padding-left: 30px;
+    border-radius: 0;
+    border:1px solid #8dc63f;
+    box-shadow: 0px 0px 10px #575757;
+}
+.search-form-input .btn{   
+    height: 60px;
+    border-radius: 0;
+    width: 110px;
+    margin-right: 20px;
+    background-color: #8dc63f;
+    box-shadow: 0px 0px 10px #575757;
+}
+.form-icon input::placeholder{
+    padding-left: 0;
+    color:#585858;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-icon{
+    position: relative;
+}
+.form-icon span{
+    position: absolute;    
+    left:10px;
+    top:22px;
+    color:#585858;
+    font-size: 15px;
+    font-weight: 600;
+}
+.filter p{
+    font-size: 18px;
+    color:#585858;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-align:left;
+    margin: 20px 0; 
+}
+.filter span{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#popular{
+    background-color: #f5f5f5;
+    padding: 30px 0 0;
+
+}
+#popular h1{
+    font-size:150px;
+    line-height: 150px;
+    opacity: 5%;
+    text-transform: uppercase;
+    position: relative;
+}
+#popular .title{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: absolute;
+    top: 68px;
+    right: 0;
+    left:0;
+}
+.autoplay{
+    margin-top:50px;
+    margin-bottom: -30px;
+}
+.-home{
+    background-color: #363636;
+    padding: 10px 20px;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.card{
+    width: 350px;
+}
+.card-title span{
+    font-size: 18px;
+    color:#8dc63f;
+    margin-right: 15px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: :#525252;
+}
+.card-text{
+    font-size:12;
+    font-weight: 400;
+    color:#474747;
+    margin:15px 0;
+    text-align: left;
+}
+.review ul li{
+    font-size: 14px;   
+    color:#199bcf; 
+}
+.review .list-inline-item:not(:last-child){
+    margin-right: 0;
+}
+.review .list-inline-item:nth-child(6n){
+    margin-left: 20px;
+    color:#575757;
+}
+.review .list-inline-item:nth-child(7n){
+    margin-left: 102px;
+    color:red;
+}
+.card-button{
+    background-color: #363636;
+    padding: 10px 20px; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+.card-button a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.card-button .btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.card-button .btn:hover{
+    color:#8dc63f;
+    transition: .3s all ease-in-out;
+}
+
+#offer{
+    background-color: #ffffff;
+    padding:70px 0 50px;
+}
+.special-offer{
+    background-image: url(../image/holiday-offer.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 40px;
+    border-radius: 5px;
+}
+.holiday{
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#8dc63f;
+    text-transform: capitalize;
+}
+
+.special-offer .btn:hover{
+    color:#8dc63f;
+}
+.both h1{
+    font-size: 36px;
+    font-weight: 900;
+    color:#ffffff;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin:20px 0;
+}
+.both p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#ffffff;
+    line-height: 20px;    
+    margin:20px 0;
+}
+.both .more{
+    background-color: #8dc63f;
+    border-radius: 15px;
+    padding: 8px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#ffffff;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 6px 0px #575757;
+}
+.more a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.travel{
+    background-image: url(../image/travel-tips.jpg);   
+    padding: 69px 40px;
+}
+.newsletter{
+    /*border: 1px solid #4c4c4c;*/
+    box-shadow: 0px 0px 6px 0px #575757;
+    margin-top:30px;
+    padding:50px 30px;
+}
+.newsletter h1{
+    font-size: 25px;
+    color:#4c4c4c;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.newsletter p{
+    font-size: 18px;
+    color:#4c4c4c;
+    font-weight: 400;
+    line-height: 20px;
+}
+.subscribe .form-control{
+    width: 75%;
+    border-radius: 30px;
+    padding:30px 25px;
+    box-shadow: 0px 0px 10px 0px #b7b7b7;
+}
+.subscribe .form-control:focus {    
+    box-shadow:none;
+    border-color: #8dc63f;
+}
+.subscribe .form-control::placeholder{
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 14px;
+    color:#575757;
+}
+.subscribe .btn{
+    background-color: #8dc63f;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 35px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.subscribe .btn:focus {
+    box-shadow: none;
+}
+.why-option{
+    box-shadow: 
+    box-shadow: 0px 0px 10px 0px #b7b7b7;
+    background-color: #ffffff;
+    margin:30px 0 70px;
+}
+.why-option h2{
+    font-size: 24px;
+    color:#8dc63f;
+    font-weight: 600;
+    line-height: 24px;
+    padding:10px 0;
+}
+.why-option p{
+    font-size: 18px;
+    color:#474747;
+    font-weight: 400;
+    line-height: 25px;
+    padding:10px 0;
+}
+.option{
+    padding:30px 20px;
+    border-right:1px solid #c7c7c7;
+}
+.option3{
+    border-right: 0;
+}
+#home-footer{
+    margin-top:0;
+}
+
+/*============================================
+       Homepage Style End
+==========================================*/
+/*============================================
+       Flights Page start
+==========================================*/
+
+.f_Des{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    color: #363636;
+}
+.f_date{
+        font-family: Poppins;
+    font-weight: 500;
+    font-size: 17px;
+    color: #363636;
+}
+.f_city{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: #363636;
+}
+.f_icon{
+    text-align: center;
+    margin: auto;
+    color:#8dc63f;
+}
+.f_button{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #8dc63f;
+    border-radius: 0;
+    padding: 41px 27px;
+    text-transform: uppercase;
+}
+.f_border{
+    border: 1px solid #9a9a9a;
+}
+
+.out-flight{
+    margin:20px 0;
+}
+.out-flight .plane{
+    color:#8dc63f;
+    border-radius: 50%;
+    border:1px solid #575757;
+    padding:5px 8px;
+}
+.out-flight ul li:nth-child(2n){
+    margin-right: 40px;
+}
+.out-flight ul li:nth-child(3n){
+    font-size: 18px;
+    color:#575757;
+    font-weight: 600; 
+}
+.out-flight ul li:nth-child(5n){
+    font-size: 18px;
+    color:#575757;
+    font-weight: 600;   
+
+}
+.filter .btn{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #b7b7b7;
+    font-size: 18px;
+    color:#575757;
+    padding:10px 20px;
+}
+.date{
+    
+}
+.date .nav-pills{
+    border-bottom:1px solid #9a9a9a;
+}
+.date ul li a{
+    font-size: 16px;
+}
+.date ul li a span{
+    font-size: 14px;
+}
+.date .nav-pills .nav-link{
+    background-color: transparent; !important;
+}
+.date .nav-item a:hover{
+    background-color: #e8e8e8;
+    border:none;
+    border-top:1px solid #8dc63f;
+    border-radius: 0;
+}
+.price-demo{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #9a9a9a;
+}
+.price-demo .btn{
+    font-size: 24px;
+    font-weight: 600;
+    color:#4d4d4d;
+
+}
+.price-demo .btn:hover{    
+    color:#8dc63f;    
+    
+}
+.price-list{
+    padding:20px 0;
+}
+.price-list:hover{
+    border-bottom:2px solid #8dc63f;
+}
+.flight-data{   
+    box-shadow: 0px 0px 10px 0px #b7b7b7;
+    border-radius: 15px;
+    padding:10px 0;
+    margin-bottom: 20px;
+}
+.flight-data td{
+    vertical-align: middle;
+    font-size: 18px ;
+    font-weight: 400 ;
+    color:#4d4d4d ;
+    padding:0;
+    text-align: center;
+}
+.flight{
+    background-color: #f7f7f7;
+    border:1px solid #eaeaea;
+    margin-bottom: 30px;
+}
+.details{    
+    background-color: #4d4d4d;
+    color:#ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 600;
+}
+.details2{
+    border-left: 1px solid #8dc63f!important;
+}
+.flight-data img{
+    padding:15px 0;
+    height: 85px;
+}
+.flight-details{
+    padding:20px 0;
+    border-bottom: 1px solid #9a9a9a; 
+}
+.flight-details h2{
+    font-size: 20px;
+    color:#363636;
+    font-weight: 600;
+    line-height: 20px;
+}
+.flight-details p{
+    font-size: 16px;
+    font-style: italic;
+    color:#363636;
+    font-weight: 400;
+    line-height: 20px;
+}
+.flight-details-arbic td{
+    font-size: 14px !important;
+    text-align: left;
+    padding:15px 0!important;
+}
+.flight-table{
+    margin-top:20px;
+}
+.fare1{   
+    margin-top:20px;
+    padding-top:20px;
+}
+.fare1 td{
+    font-size: 24px!important;
+    text-align: left;
+    font-weight: 600!important;
+    color:#363636!important;
+    padding-top: 30px!important;
+}
+.fare2 td{
+    font-size: 30px!important;
+    text-align: left;
+    font-weight: 600!important;
+    color:#363636!important;
+    padding: 20px 0!important;
+    
+}
+.book-flight .btn {
+    font-size: 17px !important;
+    padding: 10px 40px !important;
+}
+.fare-breakdown .list-inline{
+    margin:0;
+}
+.fare-breakdown ul li{
+    font-size: 18px;
+    font-weight: 600;
+    color:#363636;
+    padding:10px 20px;
+
+}
+.fare-breakdown{
+    padding:10px 0;
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+}
+.fare-breakdown ul li:hover{
+   border-bottom:2px solid #8dc63f ;
+   cursor: pointer;
+    
+}
+.fare-breakdown-content{
+    padding-left:18px;
+    padding-top: 20px;
+}
+.fare-breakdown-content p{
+    font-size: 18px;
+    color:#363636;
+    font-weight: 400;
+    line-height: 25px;
+}
+.book-flight2 .btn{
+    background-color: #4d4d4d!important;
+}
+.payment-method{
+    border-top:1px solid #eaeaea;
+}
+.payment-method h1{
+    font-size: 24px;
+    color:#363636;
+    font-weight: 600;
+    text-align: left;
+}
+.EZpay .btn{
+    font-size: 18px!important;
+    color:#363636!important;
+    font-weight: 600!important;   
+    background-color: #ffffff!important;
+    padding: 8px 50px!important;
+}
+
+/*============================================
+       Flight Style End
+==========================================*/
+/*============================================
+       Flight2 Style Start
+==========================================*/
+.price-range{
+    border-bottom: 1px solid #eaeaea; 
+}
+.price-range p{
+    font-size: 16px;
+    color:#363636;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.flight-heading{
+    font-size: 24px;
+    color:#363636;
+    font-weight: 600;
+    line-height: 25px;
+    padding:20px 0;
+}
+.price-range ul li{
+    font-size: 16px;
+    font-weight: 600;
+    padding:5px 0;
+    color:363636;
+}
+.price-range ul li:nth-child(3n){
+    float: right;
+}
+.green{
+    color:#8dc63f;
+}
+.range {
+    padding:10px 0;
+}
+.range li{
+    font-size: 16px !important;
+    color:#363636 !important;
+    font-weight: 700 !important;
+}
+.range li:nth-child(2n){
+    padding-left:105px;
+}
+.EZpay2{
+    margin:5px 0 !important;
+}
+/*============================================
+       Flight2 Style End
+==========================================*/
+/*============================================
+       Journey Style Start
+==========================================*/
+.journey-head h1{
+    font-size: 30px;
+    font-weight: 900;
+    color:#565555;
+    line-height: 30px;
+    padding:30px 0;
+}
+.journey{
+   box-shadow: 0px 0px 6px 0px #e1e1e1;
+}
+.item-1{    
+    padding:30px 30px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.item-1 ul li:first-child{
+    font-size: 15px;
+}
+.item-1 ul li:nth-child(2n){
+    font-size: 15px;
+    color:#565555;
+    font-weight: 600;
+}
+.item-1 .list-inline{
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+.item-1 ul li:nth-child(3n){
+    font-size: 15px;
+    color:#8dc63f;
+    font-weight: 600;    
+    float: right;
+}
+.item-1 p{
+    font-size: 16px;
+    color:#565555;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    margin-top:15px;
+}
+.c-border{
+    border-right:0;
+}
+.bottom{
+    border-bottom: 0;
+}
+.booking-footer{
+    margin-top:30px!important;
+}
+#continue-button{
+    margin:30px 0;
+}
+#continue-button .btn{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #8dc63f;
+    padding: 10px 70px;
+    text-transform: uppercase;
+}
+#continue-button .btn:focus{
+   box-shadow: none;
+}
+
+
+/*============================================
+       Journey Style end
+==========================================*/
+
+/*============================================
+       Passenger  Style Start
+==========================================*/
+.passenger-head{
+    background-color: #ffffff;
+}
+.passenger{
+    background-color: #f7f7f7;
+    padding: 30px 0;
+}
+.login-details{
+    padding:0 0 10px;
+}
+.login-details img{
+    vertical-align: bottom;
+}
+.login-details h1{
+    font-size: 18px;
+    font-weight: 400;
+    color:#4f4f4f;
+    line-height: 30px;    
+}
+.login-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#4f4f4f;
+    line-height: 20px;    
+}
+.login-button{        
+    
+}
+.login-button .btn{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: #8dc63f;
+    color:#ffffff;
+    padding:10px 20px;
+}
+.login-button .btn:focus{
+    box-shadow: none;    
+}
+
+.passenger-form{
+    padding:10px 30px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    border-radius: 5px;
+}
+.passenger-form h1{
+    font-size: 18px;
+    font-weight: 700;
+    color:#4f4f4f;
+    line-height: 20px;
+    margin: 20px 0;
+}
+.passenger-form-input .form-control{
+    border-color:#8dc63f;
+    padding:20px 15px;
+}
+.passenger-form-input .form-control:focus{
+    border-color:#8dc63f;
+    box-shadow: none;
+}
+.passenger-form-input input::placeholder{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px
+    color:#000000;
+}
+.passenger-form-input textarea::placeholder{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px
+    color:#000000; 
+}
+.passenger-form-input textarea{
+    padding:10px !important;
+}
+.check .custom-control-label{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    color:#2f2f2f;
+}
+.check a{    
+    color:#2f2f2f;
+    font-weight: 600;
+}
+.check .form-check-input:active~{
+        background-color:green;
+}
+.custom-control-label:before{
+        background-color:#8dc63f;
+    }
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+        background-color:#8dc63f;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+        background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='white' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+.custom-control-input:active~.custom-control-label::before{
+    background-color:green;
+}
+   
+   
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+    box-shadow: none;
+}
+.offer{
+    background-image: url(../image/offer.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding:30px;
+}
+.offer h4{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color:#ffffff;
+}
+.offer .btn{
+    border:1px solid #8dc63f;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#ffffff;
+    margin-top:20px;
+}
+.offer .btn:focus{
+    box-shadow: none;
+}
+
+/*============================================
+       Passenger  Style End
+==========================================*/
+/*============================================
+       Payment Page  Style Start
+==========================================*/
+.payment-details{
+    padding:15px 15px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    border-radius: 5px;
+}
+.payment-details .nav-item a{
+    font-size: 18px;
+    font-weight: 600;
+    color:#565555;
+    text-transform: capitalize;
+    padding:0!important;
+    padding-right:10px!important;
+}
+
+.payment-details .nav-item a:hover{
+    border:none;
+}
+.payment-details .nav-item a:active{
+    color:#8dc63f!important;
+}
+.payment-tab{
+    border-bottom:1px solid #cccccc;
+    padding-bottom: 15px;
+}
+.tab-info p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color:#565555;
+    padding:20px 0;
+    border-bottom:1px solid #cccccc;
+    
+}
+.payment-form{
+    margin-top:20px;
+    
+}
+.payment-form .col-form-label{
+    font-size: 14px;
+    font-weight: 600;
+    color:#565656;
+    font-style: italic;
+}
+.payment-form .form-control{
+    border-color:#8dc63f;
+    padding:20px 15px;
+}
+.payment-form .btn{
+    background-color:#565555;
+    padding:5px 40px;
+    color:#ffffff;
+    border:none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.payment-check{
+    margin-top:20px;
+}
+.back-button .btn{
+    background-color: #565555!important;
+}
+.payment-button .btn{
+    font-size: 18px!important;
+}
+/*============================================
+       Payment Page  Style End
+==========================================*/
+
+
+/*============================================
+       Footer
+==========================================*/
+
+#footer{
+    background-color: #181818;
+    padding: 20px 0;
+}
+.social{
+    padding:50px 0;
+}
+.social ul li {    
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #797979;
+    border: 1px solid #797979;
+} 
+
+.social ul li:first-child{   
+    font-style: italic;   
+    color:#fff;
+    height: auto;
+    width: auto;
+    padding:10px 10px;
+    background-color: transparent;
+    border:0;   
+}
+.social ul li a{
+    font-size: 16px;
+    color: #ffffff;
+}
+.contact li{
+    font-size: 16px;
+    color: #ffffff;
+    list-style:none;
+}
+.contact{
+    padding:30px 0;
+}
+
+
+/*============================================
+                Confirmation Page Start
+       Flight Details Menu Style Start here
+==========================================*/
+#confirmation{
+    background-color: #f4f4f4;
+    padding:35px 0;
+    margin:30px 0;
+}
+.confirmation{
+    margin:0
+}
+.confirmation li{
+    padding:0 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#4f4f4f;
+}
+.confirmation li .number{
+    background-color: #4f4f4f;
+    color:#ffffff;
+    border-radius: 50%;
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+
+
+
+/*============================================
+       Booking Confirmation
+==========================================*/
+.thanks-massage{   
+    padding:40px 30px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    border-radius: 5px;
+}
+.thanks-massage h1{
+    font-size: 30px;
+    font-weight: 700;
+    color:#565555;
+}
+.thanks-massage p{
+    font-size: 16px;
+    font-weight: 600;
+    color:#444444;
+    padding-top: 15px;
+
+}
+.thanks-massage span{
+    font-size: 16px;
+    font-weight: 600;
+    color:#444444;
+    margin: 20px 0!important;
+    
+
+}
+
+.payment{
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    padding: 10px 10px;
+    margin-top: 20px;
+
+}
+.payment h2{
+    font-size: 18px;
+    font-weight: 600;
+    color:#444444;
+}
+.payment td{
+    padding: 10px 20px;    
+}
+.heading td{
+    font-size: 14px;
+    font-weight: 600;
+    color:#444444;
+    vertical-align: middle;
+}
+.mastercard img{
+    height: 40px;
+    width: auto;        
+    text-align: center;    
+    padding:10px 35px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    border-radius: 15px;
+}
+
+.ammount td{
+    font-size: 18px;
+    color:#444444;
+}
+.travellers h2{
+    font-size: 20px;
+    font-weight: 600;
+    color:#444444;
+}
+.travellers td{
+    padding:5px 0;
+}
+.email td{
+    font-size: 14px;
+    font-weight: 600;
+    color:#4f4f4f;
+}
+.email .btn{
+    padding: 10px 50px;
+    background-color: #8dc63f;
+    font-size: 18px;
+    color:#ffffff;
+    font-weight: 600;
+}
+.email .btn:hover{
+    background-color: #669d19;
+}
+.email .btn:focus{
+    box-shadow: none;
+}
+.booking{
+    padding:34px 10px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.booking h1{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color:#444444;
+    margin-bottom: 10px;
+}
+.saudi td{
+    padding:0;
+    font-size: 16px;
+    font-weight: 600;
+    color:#4d4d4d;
+}
+.arabic{
+    border-top:1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding:10px 0;
+}
+.arabic td{
+    padding:10px 0;
+}
+.extra td{
+    padding:8px 0;
+}
+.extra .title{
+    font-size:24px;
+    font-weight: 700;
+    color:#4f4f4f;
+}
+.extra .subtitle{
+    font-size:18px;
+    font-weight: 600;
+    color:#565555;
+}
+.extra .price{
+    font-size:18px;
+    font-weight: 600;
+    color:#8dc63f;
+}
+.total td{
+    background-color: #8dc63f;
+    font-size: 24px;
+    font-weight: 700;
+    color:#ffffff;
+    padding:20px 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+}
+/*============================================
+       Confirmation Page End
+==========================================*/
